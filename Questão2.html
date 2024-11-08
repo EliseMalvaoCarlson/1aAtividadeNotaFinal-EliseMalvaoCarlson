@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão2</title>
+
+    <style>
+
+        table {
+            margin: 0 auto; /* Centraliza a tabela */
+        }
+            
+        th, td { 
+             border: 1px solid black; /* Coloca a linha de borda nas linhas e colunas*/
+             padding: 10px; /* Coloca um espaço entre a linha de borda e o início do texto */
+             text-align: left; /* Alinha o texto à esquerda dentro da sua célula */
+            }
+             
+        th { /*th é linha de cabeçalho da tabela*/
+            font-family: 'Courier New', Courier, monospace; /*define a fonte*/
+            background-color: #f4624e; /*Define a cor da célula*/
+            color: white; /*Define a cor da fonte da célula*/
+            }
+            
+        tr:nth-child(even) { /*seleciona as linhas pares da tabela*/
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #f1c899;
+        } 
+            
+        tr:nth-child(odd) { /*seleciona as linhas ímpares da tabela*/
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #ffffff; }
+    </style>
+    
+</head>
+<body>
+    <h1 style="font-family: 'Courier New', Courier, monospace; color: rgb(244, 158, 60); text-align: center;">TABELA</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Descrição</th>
+                <th>Preço</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Faca de pão</td>
+                <td>Corta Pão</td>
+                <td>R$ 30,00</td>
+            </tr>
+            <tr>
+                <td>Faca de carne</td>
+                <td>Corta Carne</td>
+                <td>R$ 50,00</td>
+            </tr>
+            <tr>
+                <td>Garfo Grande</td>
+                <td>Para Refeição</td>
+                <td>R$ 20,00</td>
+            </tr>
+            <tr>
+                <td>Garfo Pequeno</td>
+                <td>Para sobremesa</td>
+                <td>R$ 15,00</td>
+            </tr>
